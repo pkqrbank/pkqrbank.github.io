@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Replaced by the value of `flutter build web --base-href` -->
+  <base href="/qr-bank/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scan a poster's QR code to read the Pokémon file inside it, and keep a bank of the ones you scan.">
+
+  <!-- iOS: "Add to Home Screen" opens it full screen like an app -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="QR Bank">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>QR Bank</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- QR reader (zxing-wasm), served from this site so scanning works
+       offline. The id tells the scanner it is already loaded. -->
+  <script id="mobile-scanner-zxing-wasm" src="zxing/index.js"></script>
+  <script>
+    ZXingWASM.prepareZXingModule({
+      overrides: {
+        locateFile: (path, prefix) => path.endsWith('.wasm')
+          ? new URL('zxing/zxing_reader.wasm', document.baseURI).href
+          : prefix + path,
+      },
+    });
+  </script>
+</head>
+<body>
+  <script>
+    // Ask the browser to keep the bank (not clear it to free space)
+    if (navigator.storage && navigator.storage.persist) {
+      navigator.storage.persist();
+    }
+    // Offline support: sw.js saves the site's files on this device
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
