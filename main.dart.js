@@ -93398,7 +93398,7 @@ Us(a){return this.ae(new A.am9(this,a))},
 aiH(a){var s,r,q=this,p=null,o=a.b,n=o.gZW(),m=a.c,l=m==null,k=l?p:m.h(0,"ot_name"),j=l?p:m.h(0,"origin_game"),i=a.a,h=A.ha(i),g=q.e?B.kg:B.hy,f=A.jz(B.jx,B.pc,B.z,B.bw,p,p,p,B.ou,p)
 if(l)s=p
 else{s=m.h(0,"form_art_key")
-s=s==null?p:J.dq(s)}m=A.aFn(s,0,p,J.d(l?p:m.h(0,"is_shiny"),!0),48,o.a)
+s=s==null?p:J.dq(s)}m=A.aFn(s,0,p,J.d(l?p:m.h(0,"is_shiny"),!0),55,o.a)
 l=o.b
 l=A.bF(n==="None"?l:n+" ("+l+")",p,p,p,p,p,p)
 s=A.b(["Lv. "+o.e],t.s)
@@ -94088,7 +94088,7 @@ case 328:case 376:return"pk8"
 case 344:case 392:return"pk9"
 default:return"bin"}},
 J(a){var s,r,q,p,o,n,m,l=this,k=null,j=l.c,i=l.a8G(j.gZW()),h=j.a,g=l.d,f=j.at,e=t.p
-h=A.jx(A.iH(A.b([A.aFn(k,f,g,!1,120,h),A.bF("#"+B.c.jh(B.e.k(h),3,"0"),k,k,k,A.fv(k,k,B.dD,k,k,k,k,k,k,k,k,14,k,k,B.ct,k,k,!0,k,k,k,k,k,k,k,k),k,k)],e),B.aJ,B.ab,B.bv),k,k)
+h=A.jx(A.iH(A.b([A.aFn(k,f,g,!1,138,h),A.bF("#"+B.c.jh(B.e.k(h),3,"0"),k,k,k,A.fv(k,k,B.dD,k,k,k,k,k,k,k,k,14,k,k,B.ct,k,k,!0,k,k,k,k,k,k,k,k),k,k)],e),B.aJ,B.ab,B.bv),k,k)
 s=j.b
 r=A.qn(A.b([A.aDL(A.iH(A.b([A.bF(s,k,k,k,B.UL,k,k),A.bF("Nickname: "+i,k,k,k,A.fv(k,k,B.cq,k,k,k,k,k,k,k,k,14,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k)],e),B.ba,B.ab,B.bv)),l.a7A(),B.iT,new A.JG(A.bF("Lv. "+j.e,k,k,k,B.dj,k,k),B.he,k)],e),B.aJ,B.ls,B.bv,0)
 q=j.d
