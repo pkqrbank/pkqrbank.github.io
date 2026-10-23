@@ -3,7 +3,7 @@
 // site) after `flutter build web`. On the first visit they are all saved on
 // the device; after that the site opens and scans with no internet.
 // Pokémon/item pictures from PokéAPI are saved as they are viewed.
-const VERSION = "20261022-034125";
+const VERSION = "20261022-040653";
 const FILES = [
  "./",
  "assets/AssetManifest.bin",
