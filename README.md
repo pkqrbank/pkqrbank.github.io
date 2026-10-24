@@ -1,5 +1,6 @@
 # QR Bank
 
+Go to the website: https://pkqrbank.github.io/ 
 Scan a poster's QR code with your phone camera to get the Pokémon's .pk file back.
 
 1. Open the site on your phone (in Safari on iPhone: Share › Add to Home Screen).
