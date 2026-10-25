@@ -10,11 +10,9 @@ Scan a poster's QR code with your phone camera to get the Pokémon's .pk file ba
 Your bank lives in this browser only. Clearing browsing data deletes it, so use Export now and then to keep a backup file. After the first visit it also works offline.
 
 <img width="2672" height="1522" alt="scanning UI" src="https://github.com/user-attachments/assets/b21d4b24-83af-410e-92d1-37ccbb07e61d" />
-<img width="2672" height="1522" alt="pokemon info section" src="https://github.com/user-attachments/assets/b0a678d1-8a57-4a1b-bf0c-0568a17b5577" />
-<img width="1552" height="2642" alt="GUI for Poster Maker" src="https://github.com/user-attachments/assets/49b904ab-fedc-4be7-85a0-085cd2e9bca9" />
 <img width="2672" height="1522" alt="Filing System" src="https://github.com/user-attachments/assets/48a54d2b-db4c-4496-9f2a-68f189e1cf88" />
 <img width="2672" height="1522" alt="bookmark UI" src="https://github.com/user-attachments/assets/f5351aad-a071-4043-9f09-63dcc6e1a528" />
-
+<img width="2672" height="1522" alt="pokemon info section" src="https://github.com/user-attachments/assets/b0a678d1-8a57-4a1b-bf0c-0568a17b5577" />
 
 
 Free and non-commercial. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc. and GAME FREAK inc. This is an unofficial fan project, not affiliated with or endorsed by them. Pictures are loaded from PokéAPI.
