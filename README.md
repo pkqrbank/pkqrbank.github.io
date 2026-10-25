@@ -1,5 +1,5 @@
 # QR Bank
-
+First utilize the poster program to generate commemorative art to store your Pokemon as a QR code: https://github.com/szwbzv4vcm-code/pk-tombstone 
 Go to the website: https://pkqrbank.github.io/ 
 Scan a poster's QR code with your phone camera to get the Pokémon's .pk file back.
 
